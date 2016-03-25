@@ -1,0 +1,22 @@
+name: Escalatingdares
+type: theme
+base theme: classy
+description: When you want your site to escalate quickly
+core: 8.x
+version: 8.0.x
+libraries:
+  - Escalatingdares/global-styling
+stylesheets: 
+  all: 
+    - css/styles.css
+stylesheets-remove: 
+  - '@classy/css/components/tabs.css'
+  - core/assets/vendor/normalize-css/normalize-css
+regions:
+  header: Header
+  content: Content
+  sidebar_first: 'Sidebar first'
+  footer: Footer
+features: 
+  - favicon
+  - logo
